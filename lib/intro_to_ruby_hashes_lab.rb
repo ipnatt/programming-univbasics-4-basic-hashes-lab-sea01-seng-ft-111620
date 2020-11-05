@@ -1,11 +1,9 @@
 def new_hash
-  hash.new
+  hash = {}
 end
 
 def my_hash
-  {
-    value: => "hey"
-  }
+  { value: => "hey" }
 end
 
 def pioneer
